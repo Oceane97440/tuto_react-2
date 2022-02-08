@@ -1,5 +1,6 @@
 import React, {Component, Fragment} from "react";
 import Enfant from "./Enfant";
+import Test from "./Test";
 class Parent extends Component {
   
     state = { 
@@ -32,7 +33,7 @@ class Parent extends Component {
 
             {/* obj leState est un stat qu'on passe en propos pour recup la valeur dans le composanr enfant */}
                 <Enfant fonctionPropos={this.resEnfant} name="Je suis un propos" leState={this.state}/>
-
+            <Test></Test>
             </Fragment>    
         );
     }
