@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, {Component, Fragment} from "react";
 import Enfant from "./Enfant";
 class Parent extends Component {
   
@@ -23,7 +23,8 @@ class Parent extends Component {
 
     render() { 
         return (  
-            <div>
+            //au lieux de parent <div></div> ou <></>
+            <Fragment> 
                 <h1>Composent Parent</h1>
                 <button onClick={this.order}>Order du parent</button>
                 <p>{this.state.sendParent}</p>
@@ -32,7 +33,7 @@ class Parent extends Component {
             {/* obj leState est un stat qu'on passe en propos pour recup la valeur dans le composanr enfant */}
                 <Enfant fonctionPropos={this.resEnfant} name="Je suis un propos" leState={this.state}/>
 
-            </div>    
+            </Fragment>    
         );
     }
 }
