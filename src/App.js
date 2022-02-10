@@ -1,7 +1,8 @@
 import React from 'react';
-import Parent from './components/Parent';
-import Display from './components/Display';
-import Condition from './components/Condition';
+import Parent from './components/tuto-1/Parent';
+import Display from './components/tuto-1//Display';
+import Condition from './components/tuto-1//Condition';
+import From from './components/From';
 import './App.css';
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
     <div className="App">
       {/* <Parent/> */}
       {/* <Display/> */}
-      <Condition/> 
+      {/* <Condition/>  */}
+      <From/>
     </div>
   );
 }

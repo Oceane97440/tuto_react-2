@@ -5,3 +5,5 @@ Suite tuto tuto_react-1
 273. Destructuring et React (ES6) - Partie 1
 274. Destructuring et React (ES6) - Partie 2 (function class)
 275. Les Conditions dans React
+276. Affichage des images dans React
+277. Les Formulaires dans React
